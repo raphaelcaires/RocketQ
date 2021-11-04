@@ -6,5 +6,5 @@ module.exports = {
     const password = req.body.password;
 
     console.log(`roomId = ${roomId}, questionId = ${questionId}, action = ${action}, password = ${password}`);
-  };
+  }
 };
