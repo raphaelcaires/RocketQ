@@ -1,5 +1,5 @@
 {
-  "name": "RocketQ",
+  "name": "nlw_together_discover",
   "version": "1.0.0",
   "description": "Projeto de aplicação para gerenciar perguntas anônimas",
   "main": "src/server.js",
