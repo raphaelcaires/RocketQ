@@ -30,7 +30,7 @@ function handleClick(event, check = true){
   form.setAttribute("action", `/question/${roomId}/${questionId}/${slug}`);
 
   modalTitle.innerHTML = `${text}`;
-  modalDescription.innerHTML = `Tem certeza que deseja ${text.toLowerCase()} esta pergunta?`;
+  modalDescription.innerHTML = `Tem certeza que deseja ${text.toLowerCase()}?`;
   modalButton.innerHTML = `${text.toLowerCase()}`;
   check ? modalButton.classList.remove("red") : modalButton.classList.add("red");
   
